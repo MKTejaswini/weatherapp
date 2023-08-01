@@ -119,6 +119,6 @@ function getCurrentTime() {
 }
 
 window.addEventListener("load", () => {
-  fetchWeatherData("Hyderabad");
+  fetchWeatherData("Anantapur");
   datetimeElement.textContent = getCurrentTime();
 });
